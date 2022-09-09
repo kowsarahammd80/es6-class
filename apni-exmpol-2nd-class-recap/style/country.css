@@ -1,0 +1,13 @@
+#countires-countainer{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.country{
+  border: 2px solid salmon;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  text-align: center;
+}
